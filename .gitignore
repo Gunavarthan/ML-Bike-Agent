@@ -16,6 +16,9 @@
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
 
+*.meta
+*.anim
+
 # Recordings can get excessive in size
 /[Rr]ecordings/
 
