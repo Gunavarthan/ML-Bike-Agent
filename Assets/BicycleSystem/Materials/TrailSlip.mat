@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TrailSlip
+  m_Shader: {fileID: -6465566751694194690, guid: adeff2d841cb21049beece0b6d87c4d4, type: 3}
+  m_Parent: {fileID: 2100000, guid: fbe7580a3e4542a4e902fc14bbb77b2f, type: 2}
+  m_ModifiedSerializedProperties: 2
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _MortarDetailNoiseScale: 200
+    - _MortarGrungeDetailScale: 20
+    - _MortarNoise_Intensity: 1
+    - _MortarSmoothAdd: 0.14
+    - _MortarWornScale: 10
+    - _NormalStrenght: 2
+    - _TileAmmount: 1
+    - _TilesDarkening: -0.96
+    - _TilesDetailNoiseScale: 200
+    - _TilesGrungeDetailScale: 20
+    - _TilesMetallic: 1
+    - _TilesNoise_Intensity: 0.1
+    - _TilesSmoothAdd: 1
+    - _TilesWornScale: 10
+    m_Colors:
+    - _MortarColor: {r: 0.11320745, g: 0.11320745, b: 0.11320745, a: 0.04313726}
+    - _Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _TileShape: {r: 10, g: 12, b: 0, a: 0}
+    - _TilesColor: {r: 0.24925508, g: 0.16037735, b: 0.6415094, a: 1}
+    - _TilesWidth_Height: {r: 0.9, g: 0.9, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &6803578611176228013
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9
