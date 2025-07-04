@@ -34,6 +34,6 @@ The AI was trained for **over 1.6 million steps** using PPO. Below is the **actu
 
 ## Core Files 📁
 
-- `BicycleController.cs` – Handles physics and control of the bicycle  
-- `AgentBicycle.cs` – ML-Agent logic: observations, actions, and rewards  
-- `bicycle_config.yaml` – PPO hyperparameters and curriculum configurations
+- [`BicycleController.cs`](./Assets/BicycleSystem/BicycleVehicle.cs) – Handles physics and control of the bicycle  
+- [`AgentBicycle.cs`](./Assets/BicycleSystem/AgentBiike.cs) – ML-Agent logic: observations, actions, and rewards  
+- [`bicycle_config.yaml`](./config/Bike.yaml) – PPO hyperparameters and curriculum configurations
